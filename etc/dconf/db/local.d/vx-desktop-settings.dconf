@@ -1,0 +1,68 @@
+[org/gnome/nautilus/preferences]
+# vista de lista en Nautilus
+default-folder-viewer='list-view'
+
+# permitir suprimir directamente
+enable-delete=true
+
+# permisos avanzados para Nautilus
+show-advanced-permissions=true
+
+# doble click para abrir archivos en Nautilus
+click-policy='double'
+
+# mostrar los archivos ejecutables de texto
+executable-text-activation='display'
+
+
+[org/gnome/nautilus/icon-view]
+# nivel de ampliación de los iconos en 150%
+default-zoom-level='large'
+
+
+[org/gnome/nautilus/desktop]
+# mostrar la papelera en el escritorio
+trash-icon-visible=true
+
+# nombre del icono de la papelera
+trash-icon-name='Papelera'
+
+
+[org/gnome/desktop/interface]
+# iconos para los botones
+buttons-have-icons=true
+
+# iconos para los menús contextuales
+menus-have-icons=true
+
+cursor-theme='DMZ-White'
+gtk-theme='Vitalinux Radiance'
+icon-theme='vitalinux'
+ubuntu-overlay-scrollbars=false
+
+
+[org/gnome/desktop/media-handling]
+# lanzar nautilus cuando se automonte algún dispositivo
+automount-open=true
+
+
+[org/gnome/desktop/wm/keybindings]
+panel-run-dialog=['<Alt>F2']
+
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/pixmaps/vitalinux/vitalinux-grey.png'
+
+
+[org/gnome/desktop/wm/preferences]
+button-layout='menu:minimize,maximize,spacer,close'
+theme='Vitalinux Radiance'
+
+
+[org/gnome/nautilus/window-state]
+start-with-status-bar=true
+
+
+[com/canonical/indicator/sound]
+visible=true

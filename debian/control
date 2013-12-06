@@ -1,0 +1,16 @@
+Source: vx-desktop-settings
+Section: gnome
+Priority: extra
+Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/vitalinux/vx-desktop-settings
+
+Package: vx-desktop-settings
+Architecture: all
+Provides: vx-virtual-desktop-settings
+Conflicts: vx-virtual-desktop-settings
+Replaces: vx-virtual-desktop-settings
+Pre-Depends: vx-utils, vx-dconf-profile, vx-desktop-wallpapers, vx-desktop-icons, vx-desktop-theme
+Depends: ${misc:Depends}
+Description: Gnome settings for Vitalinux branding.
