@@ -52,7 +52,7 @@ panel-run-dialog=['<Alt>F2']
 
 [org/gnome/desktop/background]
 picture-options='zoom'
-picture-uri='file:///usr/share/pixmaps/vitalinux/vitalinux-grey.png'
+picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jpg'
 
 
 [org/gnome/desktop/wm/preferences]
