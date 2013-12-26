@@ -36,7 +36,7 @@ buttons-have-icons=true
 menus-have-icons=true
 
 cursor-theme='DMZ-White'
-gtk-theme='Vitalinux Radiance'
+gtk-theme='Vitalinux'
 icon-theme='vitalinux'
 ubuntu-overlay-scrollbars=false
 
@@ -57,7 +57,7 @@ picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jp
 
 [org/gnome/desktop/wm/preferences]
 button-layout='menu:minimize,maximize,spacer,close'
-theme='Vitalinux Radiance'
+theme='Vitalinux'
 
 
 [org/gnome/nautilus/window-state]
