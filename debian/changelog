@@ -1,3 +1,11 @@
+vx-desktop-settings (1.1-1) unstable; urgency=low
+
+  * Cambiado el fondo por el de Precise Pangolin (closes #1).
+  * Cambio de temas para Gtk y Metacity por modificación en
+    vitalinux/vx-desktop-theme#1.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Thu, 26 Dec 2013 16:39:16 +0200
+
 vx-desktop-settings (1.0-1) unstable; urgency=low
 
   * Se añade la capacidad de paquete virtual (vx-virtual-desktop-settings) para
