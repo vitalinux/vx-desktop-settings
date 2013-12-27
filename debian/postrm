@@ -23,8 +23,6 @@ case "$1" in
     remove)
         dconf update || :
 
-        vx-gconf change --key "/apps/metacity/general/button_layout" --unset --mandatory
-
         # se vuelve a hacer invisible el control de volumen simple
         vx-file-set-key --key OnlyShowIn --value ';' --separator = --file /etc/xdg/autostart/gnome-sound-applet.desktop --quiet || :
     ;;
