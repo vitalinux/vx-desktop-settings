@@ -1,3 +1,10 @@
+vx-desktop-settings (1.1-2) unstable; urgency=low
+
+  * Se cambia el método de modificación de Gconf (issue #2).
+  * Se corrige el nombre del tema para Metacity (closes #2).
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Fri, 27 Dec 2013 18:55:32 +0200
+
 vx-desktop-settings (1.1-1) unstable; urgency=low
 
   * Cambiado el fondo por el de Precise Pangolin (closes #1).
