@@ -9,6 +9,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+override_dh_gconf:
+	dh_gconf --priority=95
+
 %:
 	dh $@
-	dh_gconf --priority=95
