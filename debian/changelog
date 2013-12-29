@@ -1,3 +1,10 @@
+vx-desktop-settings (1.1-3) unstable; urgency=low
+
+  * Se corrige el fichero rules para que se genere el paquete con la totalidad
+    de los ficheros (closes #3).
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Sun, 29 Dec 2013 11:16:40 +0200
+
 vx-desktop-settings (1.1-2) unstable; urgency=low
 
   * Se cambia el método de modificación de Gconf (issue #2).
