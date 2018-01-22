@@ -1,3 +1,9 @@
+vx-desktop-settings (1.2-1) unstable; urgency=low
+
+  * Adaptación a Xenial.
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Mon, 22 Jan 2018 13:26:20 +0100
+
 vx-desktop-settings (1.1-5) unstable; urgency=low
 
   * Se añade una llamada a dconf update en el purge del paquete (closes #4).

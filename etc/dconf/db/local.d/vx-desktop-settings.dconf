@@ -1,12 +1,6 @@
 [org/gnome/nautilus/preferences]
-# vista de lista en Nautilus
-default-folder-viewer='list-view'
-
 # permitir suprimir directamente
 enable-delete=true
-
-# permisos avanzados para Nautilus
-show-advanced-permissions=true
 
 # doble click para abrir archivos en Nautilus
 click-policy='double'
@@ -14,10 +8,8 @@ click-policy='double'
 # mostrar los archivos ejecutables de texto
 executable-text-activation='display'
 
-
-[org/gnome/nautilus/icon-view]
-# nivel de ampliación de los iconos en 150%
-default-zoom-level='large'
+# permisos avanzados para Nautilus
+show-advanced-permissions=true
 
 
 [org/gnome/nautilus/desktop]
@@ -26,6 +18,10 @@ trash-icon-visible=true
 
 # nombre del icono de la papelera
 trash-icon-name='Papelera'
+
+
+[org/gnome/nautilus/window-state]
+start-with-status-bar=true
 
 
 [org/gnome/desktop/interface]
@@ -46,23 +42,6 @@ ubuntu-overlay-scrollbars=false
 automount-open=true
 
 
-[org/gnome/desktop/wm/keybindings]
-panel-run-dialog=['<Alt>F2']
-
-
-[org/gnome/desktop/background]
-picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Precise_Pangolin_by_Vlad_Gerasimov.jpg'
-
-
 [org/gnome/desktop/wm/preferences]
 button-layout='menu:minimize,maximize,spacer,close'
 theme='Vitalinux'
-
-
-[org/gnome/nautilus/window-state]
-start-with-status-bar=true
-
-
-[com/canonical/indicator/sound]
-visible=true

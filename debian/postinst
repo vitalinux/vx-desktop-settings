@@ -21,9 +21,6 @@ set -e
 case "$1" in
     configure)
         dconf update || :
-
-        # se hace visible el control de volumen simple
-        vx-file-set-key --key OnlyShowIn --value 'GNOME;' --separator = --file /etc/xdg/autostart/gnome-sound-applet.desktop --quiet || :
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

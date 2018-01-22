@@ -22,9 +22,6 @@ set -e
 case "$1" in
     remove)
         dconf update || :
-
-        # se vuelve a hacer invisible el control de volumen simple
-        vx-file-set-key --key OnlyShowIn --value ';' --separator = --file /etc/xdg/autostart/gnome-sound-applet.desktop --quiet || :
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
