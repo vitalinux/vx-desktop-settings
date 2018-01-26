@@ -11,6 +11,6 @@ Architecture: all
 Provides: vx-virtual-desktop-settings
 Conflicts: vx-virtual-desktop-settings
 Replaces: vx-virtual-desktop-settings
-Pre-Depends: vx-utils, vx-dconf-profile, vx-desktop-wallpapers, vx-desktop-icons, vx-desktop-theme, gnome-panel
+Pre-Depends: vx-utils, vx-dconf-profile, vx-desktop-wallpapers, vx-desktop-icons, numix-gtk-theme, gnome-panel
 Depends: ${misc:Depends}
 Description: Gnome settings for Vitalinux branding.

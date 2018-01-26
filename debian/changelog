@@ -1,8 +1,9 @@
 vx-desktop-settings (1.2-1) unstable; urgency=low
 
   * Adaptación a Xenial.
+  * Se usa el tema Numix para GTK3 y Metacity.
 
- -- Jose Antonio Chavarría <jachavar@gmail.com>  Mon, 22 Jan 2018 13:26:20 +0100
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Fri, 26 Jan 2018 13:19:20 +0100
 
 vx-desktop-settings (1.1-5) unstable; urgency=low
 

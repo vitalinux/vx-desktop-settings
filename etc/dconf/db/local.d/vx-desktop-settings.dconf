@@ -32,7 +32,7 @@ buttons-have-icons=true
 menus-have-icons=true
 
 cursor-theme='DMZ-White'
-gtk-theme='Vitalinux'
+gtk-theme='Numix'
 icon-theme='vitalinux'
 ubuntu-overlay-scrollbars=false
 
@@ -44,4 +44,7 @@ automount-open=true
 
 [org/gnome/desktop/wm/preferences]
 button-layout='menu:minimize,maximize,spacer,close'
-theme='Vitalinux'
+
+
+[org/gnome/metacity]
+theme='Numix'
