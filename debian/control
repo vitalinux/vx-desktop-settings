@@ -1,6 +1,6 @@
 Source: vx-desktop-settings
 Section: gnome
-Priority: extra
+Priority: optional
 Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.7
@@ -11,6 +11,8 @@ Architecture: all
 Provides: vx-virtual-desktop-settings
 Conflicts: vx-virtual-desktop-settings
 Replaces: vx-virtual-desktop-settings
-Pre-Depends: vx-utils, vx-dconf-profile, vx-desktop-wallpapers, vx-desktop-icons, numix-gtk-theme, gnome-panel
+Suggests: vx-dconf-profile
+Pre-Depends: vx-desktop-wallpapers, vx-desktop-icons, numix-gtk-theme, gnome-panel
 Depends: ${misc:Depends}
 Description: Gnome settings for Vitalinux branding.
+ Numix Gtk Theme by default.
